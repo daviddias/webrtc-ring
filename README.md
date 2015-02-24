@@ -1,9 +1,10 @@
 webrtc-ring
 =======================================
 
-**tl;dr** ring inspired ring DHT algorithm using WebRTC as transport layer for P2P in the browser. You can find more about how it works underneath at [HOW_DOES_IT_WORK](/HOW_DOES_IT_WORD.md)
+> **tl;dr** ring inspired ring DHT algorithm using WebRTC as transport layer for P2P in the browser. It enables you to communicate between several browsers in a p2p/decentralized fashion though a DHT.
 
-It enables you to communicate between several browsers in a p2p/decentralized fashion though a DHT.
+> **DISCLAIMER** Since the creation of this module, I've learned some very important behavior patterns about WebRTC datachannels while attempting to distribute raytracing jobs (simple example of parellism computing) over several browsers, you can find more it here: http://blog.daviddias.me/2014/12/20/webrtc-ring . **I'll no longer** support this module in favor of a more powerful and simple one, named [`webrtc-explorer`](https://github.com/diasdavid/webrtc-explorer)
+
 
 # Badgers
 [![NPM](https://nodei.co/npm/webrtc-ring.png?downloads=true&stars=true)](https://nodei.co/npm/webrtc-ring/)
